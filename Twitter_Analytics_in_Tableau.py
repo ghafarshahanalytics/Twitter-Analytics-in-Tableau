@@ -42,7 +42,7 @@ users_tweets = [[tweet.author.name.encode('utf8'), tweet.author.screen_name.enco
 tweet_text = pd.DataFrame(data=users_tweets, columns=['Author Name', 'Twitter Handle', 'Created Date', 'Tweet Text',
                                                       '# of likes', 'Retweet Count'])
 # export results into a csv file.
-tweet_text.to_csv (r'C:\Users\gshah200\Documents\export_makeovermondayTweetsNEW.csv', index = False, header=True)
+tweet_text.to_csv (r'Place path name here\ Filename', index = False, header=True)
 
 #print data frame results to double check output.
 print(tweet_text)
